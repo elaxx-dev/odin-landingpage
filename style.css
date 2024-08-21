@@ -8,8 +8,8 @@ body {
 /* STYLE FOR HEADER */
 .header {
     display: flex;
-    justify-content: space-between;
-    background-color: #1f2937;
+    justify-content: space-around;
+    background-color: #1f2937; 
 }
 
 ul {
@@ -42,3 +42,44 @@ a {
 }
 
 /* STYLE FOR FIRST SECTION */
+.first-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex: 1 1 auto;
+    padding: 50px;
+    background-color: #1f2937;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+}
+
+p.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 5px;
+}
+
+.first-section p.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+div.first-section button{
+    justify-self: flex-start;
+    border-radius: 25px;
+    border-color: #3882f6;
+    font-weight: 800;
+    width: 100px; height: 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+div.first-section img {
+    width: 300px; height: auto;
+}
