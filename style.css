@@ -83,3 +83,49 @@ div.first-section button{
 div.first-section img {
     width: 300px; height: auto;
 }
+
+/* STYLE FOR SECOND SECTION */
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 50px;
+    gap: 20px;
+    background-color: white;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+}
+
+div.second-section img {
+    max-width: 300px; height: auto;
+}
+
+.img-text-one,
+.img-text-two,
+.img-text-three,
+.img-text-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.img-container p.text {
+    text-align: center;
+    width: 200px;
+    margin: 5px 0;
+}
+
+div.second-section div.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
