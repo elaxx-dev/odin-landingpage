@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0%;
+    flex: 1 1 auto;
 }
 
 /* STYLE FOR HEADER */
@@ -156,4 +157,43 @@ div.second-section div.title {
     font-weight: 900;
     font-size: 24px;
     color: #1f2937;
+}
+
+/* STYLE FOR FOURTH SECTION */
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 50px;
+    background-color: white;
+}
+
+.container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    width: 800px;
+    min-width: none;
+    padding: 30px 100px;
+    margin: 70px;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+div .top-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div .container button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    width: 150px; height: auto;
+    font-size: 16px;
+    font-weight: bold;
 }
